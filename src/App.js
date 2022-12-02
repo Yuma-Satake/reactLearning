@@ -1,23 +1,23 @@
 import './App.css';
-import Count from "./count.js";
-
-const Pushe = () => {
-  console.log("計算");
-}
+import '@fontsource/roboto/500.css';
+import React from 'react';
+import Button from '@mui/material/Button';
+import { Typography } from '@mui/material';
+import { useState } from 'react';
 
 function App() {
-  let num=0;
+  const [nums,setNums] = useState(100);
+
+  const countUp = () => {
+    setNums(nums+1);
+  };
 
   return (
-    <div className='App-header'>
-      <h1>
-        冷やし中華
-      </h1>
-        <input type="text"></input>
-        <input type="text"></input>
-        <div>{num}</div>
-      <button onClick={Pushe}>計算</button>
+    <div class='App'>
+      <Typography variant="h2" m={2}>{nums}</Typography>
+      <Button onClick={countUp} variant="contained">Plus</Button>
     </div>
+
   );
 };
 
