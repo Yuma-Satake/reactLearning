@@ -1,23 +1,20 @@
 import './App.css';
 import '@fontsource/roboto/500.css';
 import React from 'react';
-import Button from '@mui/material/Button';
-import { Typography } from '@mui/material';
-import { useState } from 'react';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
+
+// import CountClick from './components1/CountClick';
+import TopAppBar from "./components2/TopAppBar.js";
 
 function App() {
-  const [nums,setNums] = useState(100);
-
-  const countUp = () => {
-    setNums(nums+1);
-  };
-
   return (
-    <div class='App'>
-      <Typography variant="h2" m={2}>{nums}</Typography>
-      <Button onClick={countUp} variant="contained">Plus</Button>
-    </div>
-
+    <>
+      <TopAppBar></TopAppBar>
+    </>
   );
 };
 
