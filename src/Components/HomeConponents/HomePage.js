@@ -1,11 +1,11 @@
-import HomeAppBar from "./HomeAppBar"
 import HomeTitle from "./HomeTitle"
 import HomeTextField from './HomeTextField.js'
+import MainAppBar from "../Components/AppBarConponents/MainAppBar";
 
 const HomePage = () => {
     return(
         <>
-            <HomeAppBar></HomeAppBar>
+            <MainAppBar></MainAppBar>
             <HomeTitle></HomeTitle>
             <HomeTextField></HomeTextField>
         </>

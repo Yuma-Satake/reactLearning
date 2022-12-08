@@ -1,0 +1,27 @@
+[
+    {
+        "id":"1",
+        "teamname":"緑茶は伊右衛門派",
+        "progres":0
+    },
+    {
+        "id":"2",
+        "teamname":"やさしいコク",
+        "progres":2
+    },
+    {
+        "id":"3",
+        "teamname":"ハッカ容器",
+        "progres":1
+    },
+    {
+        "id":"4",
+        "teamname":"Devroll",
+        "progres":3
+    },
+    {
+        "id":"5",
+        "teamname":"CDLE youth",
+        "progres":4
+    }
+]

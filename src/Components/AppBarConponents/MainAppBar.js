@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 
 const pages = ['Hack Viewerとは', '使い方'];
 
-function HomeAppBar() {
+function MainAppBar() {
   return (
     <AppBar
       position="static"
@@ -46,4 +46,4 @@ function HomeAppBar() {
     </AppBar>
   );
 }
-export default HomeAppBar;
+export default MainAppBar;
