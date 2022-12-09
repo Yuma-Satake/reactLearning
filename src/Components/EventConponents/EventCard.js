@@ -38,7 +38,7 @@ function EventCard() {
                 </Stepper>
             </Box>
             <CardActions>
-                <Button sx={{mx:'auto', mb:2}} variant='contained'>進捗をPUSHする</Button>
+                <Button sx={{mx:'auto',mb:1}} variant='contained'>進捗を進める</Button>
             </CardActions>
         </Card>
     ))}

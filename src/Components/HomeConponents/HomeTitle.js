@@ -8,7 +8,7 @@ const HomeTitle = () => {
         display: 'flex',
         flexDirection: 'column',
         m:5,
-        mt:15,
+        mt:10,
         }}>
         <Typography variant="h2"component="h1" gutterBottom>
           ハッカソンは

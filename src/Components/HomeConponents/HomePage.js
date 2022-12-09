@@ -1,6 +1,6 @@
 import HomeTitle from "./HomeTitle"
 import HomeTextField from './HomeTextField.js'
-import MainAppBar from "../Components/AppBarConponents/MainAppBar";
+import MainAppBar from "../AppBarConponents/MainAppBar";
 
 const HomePage = () => {
     return(

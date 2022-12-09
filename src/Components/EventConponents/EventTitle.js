@@ -1,11 +1,7 @@
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 
-const eventData = {
-        "id" : 1,
-        "name" : "【オンライン開発合宿vol.8】「はじめてのハッカソン」",
-        "about" : "2日間(11月30日実施のキックオフ以降の事前開発OK)で成果物を創ってエンジニアとしてレベルアップするオンラインハッカソンを開催します。"
-    }
+import eventData from "./eventData.json";
 
 const MainTitle = () => {
     return(
