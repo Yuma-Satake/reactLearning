@@ -5,9 +5,6 @@ import '@fontsource/roboto/700.css';
 import { Stack } from '@mui/material';
 import MailSend from './Components/mail';
 
-const sub = () => {
-}
-
 const App = () => {
   return (
     <Stack justifyContent='center' sx={{m:50}}>
