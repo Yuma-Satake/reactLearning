@@ -2,17 +2,16 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import CssBaseline from '@mui/material/CssBaseline'
+import { Stack } from '@mui/material';
+import MailSend from './Components/mail';
 
-import HomePage from "./Components/HomeConponents/HomePage.js";
-
-function App() {
+const App = () => {
   return (
-    <>
-      <CssBaseline></CssBaseline>
-      <HomePage></HomePage>
-    </>
+    <Stack justifyContent='center' sx={{m:50}}>
+      <MailSend/>
+    </Stack>
   );
 };
 
 export default App;
+
