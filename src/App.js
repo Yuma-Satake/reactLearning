@@ -2,21 +2,19 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import CssBaseline from '@mui/material/CssBaseline'
+import { Stack } from '@mui/material';
+import MailSend from './Components/mail';
 
-import HomePage from "./Components/HomeConponents/HomePage.js";
-import EventPage from "./Components/EventConponents/EventPage.js";
-import TeamSetPage from "./Components/TeamSetConponents/TeamSetPage.js"; 
+const sub = () => {
+}
 
-function App() {
+const App = () => {
   return (
-    <>
-      <CssBaseline></CssBaseline>
-      <HomePage></HomePage>
-      <EventPage></EventPage>
-      <TeamSetPage></TeamSetPage>
-    </>
+    <Stack justifyContent='center' sx={{m:50}}>
+      <MailSend/>
+    </Stack>
   );
 };
 
 export default App;
+
