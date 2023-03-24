@@ -17,7 +17,6 @@ export const Drags = () => {
         {List.map((item, index) => {
           const SortList = () => {
             const newList = List.splice(DragItem.drop, 0, { id: 1000, num: 10000 });
-            console.log(newList);
             setList(newList);
           };
           return (
