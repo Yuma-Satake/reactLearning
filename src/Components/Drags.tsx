@@ -36,7 +36,7 @@ export const Drags = () => {
               }}
             >
               <TableCell>ID：{item.id}</TableCell>
-              <TableCell>ID：{item.num}</TableCell>
+              {/* <TableCell>ID：{item.num}</TableCell> */}
             </TableRow>
           );
         })}
