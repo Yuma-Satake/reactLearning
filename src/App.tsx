@@ -1,6 +1,5 @@
-import { CheckBox } from "@mui/icons-material";
 import { Button, Typography } from "@mui/material";
-import { Box, Stack } from "@mui/system";
+import { Stack } from "@mui/system";
 import axios, { AxiosResponse } from "axios";
 import { useState } from "react";
 
