@@ -2,7 +2,7 @@ import { Button, Typography } from "@mui/material";
 import { Stack } from "@mui/system";
 import axios, { AxiosResponse } from "axios";
 import { useState } from "react";
-import { QueryClient } from "react-query";
+import { QueryClient, useQuery } from "react-query";
 
 export function App() {
   const [disp, setdisp] = useState({ id: 0, name: "未取得" });
@@ -13,7 +13,8 @@ export function App() {
       }
     }
   });
-  console.log(queryClient);
+
+  const useQuery = useQuery("name", eventHandle);
 
   const eventHandle = async () => {
     const res: AxiosResponse = await axios.get("http://localhost:5173/name");
