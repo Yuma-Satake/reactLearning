@@ -14,12 +14,12 @@ export function App() {
     }
   });
 
-  const useQuery = useQuery("name", eventHandle);
-
   const eventHandle = async () => {
     const res: AxiosResponse = await axios.get("http://localhost:5173/name");
     setdisp(res.data);
   };
+
+  const useQueryFn = useQuery("name", eventHandle);
 
   return (
     <Stack direction='column' spacing={5} sx={{ m: 10 }}>
