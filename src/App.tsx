@@ -4,6 +4,12 @@ import axios, { AxiosResponse } from "axios";
 import { useEffect, useState } from "react";
 import { QueryClient, useQuery } from "react-query";
 
+const value = "Hello World";
+
+const handle = () => {
+  console.log("e");
+};
+
 export function App() {
   return (
     <Stack direction='column' spacing={5} sx={{ m: 10 }}>
