@@ -1,8 +1,5 @@
 import { Button, Typography } from "@mui/material";
 import { Stack } from "@mui/system";
-import axios, { AxiosResponse } from "axios";
-import { useEffect, useState } from "react";
-import { QueryClient, useQuery } from "react-query";
 
 const value = "Hello World";
 
